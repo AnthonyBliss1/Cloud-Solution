@@ -4,4 +4,4 @@ The main goal of this project was to track and analyze trailer fuel readings to 
 ## Architecture
 I was able to utilize AWS Lambda to create a function that scrapes the webpage for Trailer 1, 2, and 3's pressure readings, uses an API to pull the current temperature at the zipcode of the site, and exports the data into a MySQL cloud database. AWS RDS was used to create and configure the MySQL database. Then, I created a Streamlit app that connects to the database so we can view the extracted data through visualizations and analyze it with statistical models.
 
-![Cloud Solution Architecture](/assets/Cloud Solution.pdf)
+![Cloud Solution Architecture](/assets/CloudSolution.pdf)
