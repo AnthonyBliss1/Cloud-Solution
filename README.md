@@ -7,7 +7,7 @@ First, I used AWS RDS to create and configure a MySQL cloud database. I was then
 ![Cloud Solution Architecture](assets/Cloud_Solution.jpg)
 
 ## AWS RDS - MySQL
-Using AWS RDS I created a MySQL database to house the data for this project. I chose MySQL because of my familiarity with 'MySQL Workbench'. After creating and configurating the database, I connected to it using Workbench then used SQL commands to create the table where the data exported by our function will be stored. I created a value - ID to serve as the Primary Key to go along with the date, time, a reading from Trailer 1, 2, and 3, the temperature at the site, and a boolean value 'Offline'. Initially I had the table setup with a value - 'label' that would be either Trailer 1, 2, or 3 but this caused a lot of redundancies in the data and was not as clean as I would have liked. 
+Using AWS RDS I created a MySQL database to house the data for this project. I chose MySQL because of my familiarity with 'MySQL Workbench'. After creating and configurating the database, I connected to it using Workbench then used SQL commands to create the table where the data exported by our function will be stored. I created a value - 'ID' to serve as the Primary Key to go along with the date, time, a reading from Trailer 1, 2, and 3, the temperature at the site, and a boolean value 'Offline'. Initially I had the table setup with a value - 'label' that would be either Trailer 1, 2, or 3 but this caused a lot of redundancies in the data and was not as clean as I would have liked. 
 
 ![MySQL](/assets/mySQL.png)
 
