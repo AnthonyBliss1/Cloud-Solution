@@ -1,3 +1,5 @@
+# Automated Cloud Solution Summary
+
 ## Background
 The main goal of this project is to track and analyze trailer fuel readings to be more informed of usage and better plan deliveries. The site around which this project is built, runs on Natural Gas and has three trailer trucks of fuel fed into the system at one time. The current method for tracking these fuel tanks is monitoring a webpage portal that posts the pressure readings for each trailer in real-time. This page does not keep historical records of the tank readings so we have a limited understanding of burn rate and  difficulty tracking usage. The Natural Gas is used for providing heat to the building, so we are prioritizing gathering this data before entering the winter where we could potentially face a slew of logistical issues given the volume of fuel this site uses. 
 
