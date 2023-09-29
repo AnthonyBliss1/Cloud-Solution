@@ -46,7 +46,7 @@ def main(event, context):
     # Initialize wait 
     wait = WebDriverWait(driver, 30)
 
-    # Wait for first field to be present then fill out all fields and login
+    # Fill out fields and login
     account_field = wait.until(EC.presence_of_element_located((By.NAME, "account")))
     account_field.send_keys(account_info)
     username_field = driver.find_element(By.NAME, "username")
@@ -109,7 +109,7 @@ def main(event, context):
     # Check for menu icon
     menu_icon = find_element_or_none(driver, By.XPATH, menu_icon_path)
     
-    # If menu icon is found, click it to reveal profile icon
+    # If menu icon is found, reveal profile icon
     if menu_icon:
         menu_icon.click()
         profile_icon = wait.until(EC.element_to_be_clickable((By.XPATH, profile_icon_path)))
