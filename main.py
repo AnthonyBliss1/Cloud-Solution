@@ -163,7 +163,7 @@ def main(event, context):
     )
     cursor = connection.cursor()
 
-    # SQL statement to insert data
+    # Insert data
     sql_insert_query = """
         INSERT INTO trailer_data (
             Date, 
