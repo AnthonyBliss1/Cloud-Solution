@@ -43,7 +43,6 @@ def main(event, context):
     # Go to login page
     driver.get(LOGIN_URL)
 
-    # Initialize wait 
     wait = WebDriverWait(driver, 30)
 
     # Fill out fields and login
